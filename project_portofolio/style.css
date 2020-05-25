@@ -360,19 +360,19 @@ main #tmp_library .lib_content ul li a:hover ::before{
 
 
 main #tmp_library .lib_content ul li.web a{
-	background:url(project_portofolio/img/web-1045994_1920.jpg)center center no-repeat;
+	background:url(/project_portofolio/img/web-1045994_1920.jpg)center center no-repeat;
 	background-size:auto 100%;
 }
 main #tmp_library .lib_content ul li.dtp a{
-	background:url(project_portofolio/img/machine-585262_1920.jpg)center center no-repeat;
+	background:url(/project_portofolio/img/machine-585262_1920.jpg)center center no-repeat;
 	background-size:auto 100%;
 }
 main #tmp_library .lib_content ul li.graphic a{
-	background:url(project_portofolio/img/poly-3295856_1920.png)center center no-repeat;
+	background:url(/project_portofolio/img/poly-3295856_1920.png)center center no-repeat;
 	background-size:auto 100%;
 }
 main #tmp_library .lib_content ul li.others a{
-	background:url(project_portofolio/img/lightbulb.jpg)center center no-repeat;
+	background:url(/project_portofolio/img/lightbulb.jpg)center center no-repeat;
 	background-size:auto 100%;
 }
 main #tmp_library .lib_title{
@@ -599,7 +599,7 @@ header.web .menu{
 	position: relative;
 	width: 100%;
 	height: 650px;
-	background: url(project_portofolio/img/web-1045994_1920.jpg)center no-repeat;
+	background: url(/project_portofolio/img/web-1045994_1920.jpg)center no-repeat;
 }
 main .product_cnt .container{
 	width: 100%;
@@ -626,7 +626,7 @@ dtp
 	position: relative;
 	width: 100%;
 	height: 650px;
-	background: url(project_portofolio/img/machine-585262_1920.jpg)center no-repeat;
+	background: url(/project_portofolio/img/machine-585262_1920.jpg)center no-repeat;
 }
 /*=====================================
 grahic
@@ -635,7 +635,7 @@ grahic
 	position: relative;
 	width: 100%;
 	height: 650px;
-	background: url(project_portofolio/img/poly-3295856_1920.png)center center no-repeat!important;
+	background: url(/project_portofolio/img/poly-3295856_1920.png)center center no-repeat!important;
 }
 /*=====================================
 others
@@ -644,13 +644,13 @@ others
 	position: relative;
 	width: 100%;
 	height: 650px;
-	background: url(../img/lightbulb.jpg)center center no-repeat!important;
+	background: url(/project_portofolio/img/lightbulb.jpg)center center no-repeat!important;
 }
 /*=====================================
 about
 ====================================*/
 .mainvisual_about{
-	background: url(project_portofolio/img/horse.png)center center no-repeat;
+	background: url(/project_portofolio/img/horse.png)center center no-repeat;
 	position: relative;
 	width: 100%;
 	height: 650px;
@@ -677,7 +677,7 @@ about
 about
 ====================================*/
 .mainvisual_contact{
-	background: url(project_portofolio/img/679.jpg)center center no-repeat;
+	background: url(/project_portofolio/img/679.jpg)center center no-repeat;
 	position: relative;
 	width: 100%;
 	height: 650px;
