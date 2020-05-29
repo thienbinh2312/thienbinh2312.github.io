@@ -1,4 +1,4 @@
-@charset "utf-8";
+﻿@charset "utf-8";
 /* CSS Document */
 
 *{
@@ -237,7 +237,7 @@ body{
 }
 .cnt_info{
 	width: 80%;
-	margin: -100px 0 100px 280px;
+	margin: -100px 0 100px 267px;
 }
 .cnt_info .cnt_txt{
 	position: relative;
@@ -320,7 +320,6 @@ body{
 	width:100%;
 	color: rgb(33, 37, 41);
 	margin-bottom: 100px;
-	background-color: #f5f4f3;
 }
 .wrap_intro .intro_txt{
 	position: absolute;
@@ -345,13 +344,15 @@ body{
 .wrap_intro .intro{
 	position: relative;
 	top:0;
-	left: 22%;
+	left:0;
 	width:80%;
 	height: 100%;
 	z-index: 5;
+	padding: 0 145px;
 }
 .intro.left_side{
 	left: 0;
+	padding: 0;
 }
 .btn a{
 	position: relative;
@@ -389,7 +390,7 @@ body{
 	transition: all .6s cubic-bezier(.165,.84,.44,1);
 }
 .intro.fix_size{
-	left:43%;
+	padding: 0 565px;
 }
 .intro_txt.fix_txt{
 	top:100px;
@@ -610,17 +611,17 @@ h3.style_tittle{
 } 
 
 .footer_sns .copyright {
-    width: 350px;
-    margin: 0 300px;
+    width: 400px;
+    margin: 0 auto;
 }
 
 .copyright .sns_icon ul{
 	display: flex;
 	width: 100%;
-	margin: 0 auto;
+	margin: 0 -10px;
 }
 .copyright .sns_icon ul li {
-	padding: 10px 30px;
+	padding: 10px;
 }
 .copyright .sns_icon ul li a {
 	display: block;
@@ -678,13 +679,15 @@ p{
 	visibility: hidden;
 	display: none;
 	}
+
+	
 	.mainvisual {
     height: 320px;
 }
 	.cnt_info {
 	width: 100%;
     height: 200px;
-    margin: -100px 0 100px 30px;
+    margin: -100px 0 100px 0;
 }
 	
 	.cnt_info .cnt_news {
@@ -710,9 +713,19 @@ p{
 	.cnt_info .cnt_txt {
     position: relative;
     width: 100%;
-    height: 200px;
     background: #000;
 }
+	.cnt_info .cnt_txt a {
+    padding: 10px 0px;
+	font-size: 18px;
+}
+	.cnt_info .cnt_txt a::after {
+    top: 3px;
+    left: 31px;
+    width: 85%;
+    height: 42px;
+}
+	
 /*-----------------------intro----------------------*/
 	.wrap_intro {
     margin-bottom: 20px;
@@ -816,8 +829,5 @@ p{
     display: none;
 }
 
-.footer_sns .copyright {
-    margin: 0 ;
-}
-
+	
 }
