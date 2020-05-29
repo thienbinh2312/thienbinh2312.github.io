@@ -345,14 +345,14 @@ body{
 	position: relative;
 	top:0;
 	left:0;
-	width:80%;
+	width:100%;
 	height: 100%;
 	z-index: 5;
-	padding: 0 145px;
+	padding: 0 0 0 145px;
 }
 .intro.left_side{
 	left: 0;
-	padding: 0;
+	padding: 0 145px 0 0;
 }
 .btn a{
 	position: relative;
@@ -663,171 +663,158 @@ p{
 }
 /*-------------------------responsive-----------------------------*/
 @media screen and (max-width: 640px) {
-	img {
-    width: 100% ;
-    height: auto ;
+img {
+	width: 100% ;
+	max-width: 100%;
+	height: auto ;
 }
-	
-	
-	.header_mainvs .header .name {
-    width: 100%;
+.header_mainvs .header .name {
+	width: 100%;
 }
-	.logo_txt {
-    font-size: 18px;
+.logo_txt {
+	font-size: 18px;
 }
-	.menu{
+.menu{
 	visibility: hidden;
 	display: none;
-	}
-
-	
-	.mainvisual {
-    height: 320px;
 }
-	.cnt_info {
+.mainvisual {
+	height: 320px;
+}
+.cnt_info {
 	width: 100%;
-    height: 200px;
-    margin: -100px 0 100px 0;
+	height: 200px;
+	margin: -100px 0 100px 0;
 }
-	
-	.cnt_info .cnt_news {
-  	width: 100%;
-    height: 180px;
-    padding: 10px 0 0 50px;
+
+.cnt_info .cnt_news {
+	width: 100%;
+	height: 180px;
+	padding: 10px 0 0 50px;
 }
-	.cnt_news .date_news {
-    display: block;
-    height: 60px;
-    font-size: 13px;
-    font-weight: 500;
+.cnt_news .date_news {
+	display: block;
+	height: 60px;
+	font-size: 13px;
+	font-weight: 500;
 }
-	.cnt_news .date_news .date {
-    width: 100%;
-    height: 20px;
+.cnt_news .date_news .date {
+	width: 100%;
+	height: 20px;
 }
-	.cnt_news .date_news .news a {
-    width: 100%;
+.cnt_news .date_news .news a {
+	width: 100%;
 	color: #000;
 }
 
-	.cnt_info .cnt_txt {
-    position: relative;
-    width: 100%;
-    background: #000;
+.cnt_info .cnt_txt {
+	position: relative;
+	width: 100%;
+	background: #000;
 }
-	.cnt_info .cnt_txt a {
-    padding: 10px 0px;
+.cnt_info .cnt_txt a {
+	padding: 10px 0px;
 	font-size: 18px;
 }
-	.cnt_info .cnt_txt a::after {
-    top: 3px;
-    left: 31px;
-    width: 85%;
-    height: 42px;
+.cnt_info .cnt_txt a::after {
+	top: 3px;
+	left: 31px;
+	width: 85%;
+	height: 42px;
 }
-	
 /*-----------------------intro----------------------*/
-	.wrap_intro {
-    margin-bottom: 20px;
+.wrap_intro {
+	margin-bottom: 20px;
 	padding: 30px;	
-	}
-	
-	.wrap_intro .intro {
+}
+.wrap_intro .intro {
 	position: static;		
-    width: 100%;
-    padding: 0;
-    height: 100%;
-    z-index: 5;
+	width: 100%;
+	padding: 0;
+	height: 100%;
+	z-index: 5;
 }
-	.wrap_intro .intro_txt {
-    position: static;
-    width: 100%;
-    height: auto;
-    font-size: 18px;
-    padding: 10px 25px 10px 30px;
+.wrap_intro .intro_txt {
+	position: static;
+	width: 100%;
+	height: auto;
+	font-size: 18px;
+	padding: 10px 25px 10px 30px;
 }
-
-	.wrap_intro .intro_txt h3 {
-    margin-bottom: 10px;
+.wrap_intro .intro_txt h3 {
+	margin-bottom: 10px;
 }
-	.wrap_intro .intro_txt p {
-    font-size: 12px;
+.wrap_intro .intro_txt p {
+	font-size: 12px;
 	font-weight: 480;
-	}
-	
-	.btn a {
-    width: 100%;
-	}
-	
-	.btn a::after {
-    left: 35px;
-	}
-	.wrap_intro .intro_txt.right_side { 
-     padding: 10px 25px 10px 30px;
-	}
-/*-----------------------------------------nada_style-----------------------------------------------------*/
-	.content .Nada_style {
-    height: auto;
-	margin-bottom: 0;	
-	}	
-	
-	.Nada_style .wrap_style ul li {
-    width: 90%;
-    height: auto;
-    margin: 0 0 20px 0;
-	}
-	.style_btn {
-    margin-left: 14%;
-    width: 73%;
-	}	
-	.style_btn {
-    margin-left: 14%;
-    width: 73%;
-	padding: 0 0 50px 0;	
-	}
-	.style_btn.btn a::after {
-    left: 28px;
-	}
-/*-----------------------------------------------col_faq--------------------------------------------------*/	
-	.wrap_col_faq {
-    width: 100%;
-    display: block;
 }
-	.wrap_col_faq h3 {
+.btn a {
+	width: 100%;
+}
+.btn a::after {
+	left: 35px;
+}
+.wrap_intro .intro_txt.right_side { 
+ 	padding: 10px 25px 10px 30px;
+}
+/*-----------------------------------------nada_style-----------------------------------------------------*/
+.content .Nada_style {
+	height: auto;
+	margin-bottom: 0;	
+}	
+
+.Nada_style .wrap_style ul li {
+	width: 90%;
+	height: auto;
+	margin: 0 0 20px 0;
+}
+.style_btn {
+	margin-left: 14%;
+	width: 73%;
+}	
+.style_btn {
+	margin-left: 14%;
+	width: 73%;
+	padding: 0 0 50px 0;	
+}
+.style_btn.btn a::after {
+	left: 28px;
+}
+/*-----------------------------------------------col_faq--------------------------------------------------*/	
+.wrap_col_faq {
+	width: 100%;
+	display: block;
+}
+.wrap_col_faq h3 {
 	font-size: 24px;
 	padding:0;
 }
-	.wrap_col_faq p {
-    font-size: 16px;
-    padding-bottom: 25px; 
+.wrap_col_faq p {
+	font-size: 16px;
+	padding-bottom: 25px; 
 }
-	.wrap_col_faq .column {
-    width: 100%;
+.wrap_col_faq .column {
+	width: 100%;
 	font-size: 12px;
 	padding: 10px 30px 50px 30px;	
 }
-	.list ul li::after {
-    width: 300px;
+.list ul li::after {
+	width: 300px;
 }
-	.wrap_col_faq .faq {/*-----------------faq-----------------*/
-    width: 100%;
-	padding: 30px;}
-	
-	.wrap_col_faq p {
-    font-size: 12px;
-    padding-bottom: 25px;
-    font-weight: 900;
+.wrap_col_faq .faq {/*-----------------faq-----------------*/
+	width: 100%;
+	padding: 30px;
 }
-	
-	.faq_btn.btn a::after{
-		top:4;	
-	}
+.wrap_col_faq p {
+	font-size: 12px;
+	padding-bottom: 25px;
+	font-weight: 900;
+}
+.faq_btn.btn a::after{
+	top:4;	
+}
 /*-----------------------------question_box---------------------*/	
-
 .wrap_footer .footer_col {
- 
-    display: none;
+	display: none;
 }
-
-	
 }
