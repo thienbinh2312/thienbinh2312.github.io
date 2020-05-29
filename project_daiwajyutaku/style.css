@@ -611,17 +611,17 @@ h3.style_tittle{
 } 
 
 .footer_sns .copyright {
-    width: 400px;
+    width: 350px;
     margin: 0 auto;
 }
 
 .copyright .sns_icon ul{
 	display: flex;
 	width: 100%;
-	margin: 0 -10px;
+	margin: 0 ;
 }
 .copyright .sns_icon ul li {
-	padding: 10px;
+	padding: 30px;
 }
 .copyright .sns_icon ul li a {
 	display: block;
