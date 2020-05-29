@@ -611,7 +611,7 @@ h3.style_tittle{
 
 .footer_sns .copyright {
     width: 350px;
-    margin: 0 250px;
+    margin: 0 300px;
 }
 
 .copyright .sns_icon ul{
@@ -816,5 +816,8 @@ p{
     display: none;
 }
 
-	
+.footer_sns .copyright {
+    margin: 0 ;
+}
+
 }
