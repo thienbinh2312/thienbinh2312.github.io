@@ -21,8 +21,8 @@ $(function(){
 				autoplaySpeed:4000,
 				dots:false,
 				infinite: true,
-				prevArrow: "<a href='javascript:void(0);' class='slick-prev slick-arrow'><img src='images/icon_preview.png' alt='' width='18' height='32' /></a>",
-				nextArrow: "<a href='javascript:void(0);' class='slick-next slick-arrow'><img src='images/icon_next.png' alt='' width='18' height='32' /></a>",
+				prevArrow: "<a href='javascript:void(0);' class='slick-prev slick-arrow'><img src='project_hoian/images/icon_preview.png' alt='' width='18' height='32' /></a>",
+				nextArrow: "<a href='javascript:void(0);' class='slick-next slick-arrow'><img src='project_hoian/images/icon_next.png' alt='' width='18' height='32' /></a>",
 				customPaging: function (slider, i) {
 					return ('<a href="javascript:void(0)"><span>' + (i + 1) + '</span></a>');
 				}
