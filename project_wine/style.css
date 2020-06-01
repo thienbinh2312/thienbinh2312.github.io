@@ -1,0 +1,463 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	box-sizing: border-box;
+}
+body{
+	font-size: 12px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 0.06em;
+	color: #000;
+}
+li{
+	list-style: none;
+}
+p,span,ul,li,small,dl,dt,dd{
+	padding: 0;
+	margin: 0;
+}
+a{
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	color: #000000;
+}
+.clearboth:after{
+	display: block;
+	content: "";
+	clear: both;
+}
+/*===================================================phan chung====================================================================*/
+#tmp_wrap_body{
+	width: 100%;
+	height: 300px;
+	margin: 0 auto;
+}
+.wrap{
+	margin:0 50px;
+}
+/*===================================================header====================================================================*/
+.wrap_toggle_button{/*=======================================bargermenu=========================*/
+    height: 70px;
+    width: 70px;
+    background: url(images/pc_bg_menu_button_on.png);
+    background-size: 70px 70px;
+    position: fixed;
+    right: 8px;
+    top: 5px;
+	z-index: 3;
+}
+.toggle-button {
+    position: fixed;
+	top: 8px;
+    left: 7px;
+    padding: 8px;
+    margin: 8px;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    z-index: 3;
+}
+.toggle-button:hover .top {
+	transform: translateY(6px) translateX(0) rotate(45deg);
+}
+.toggle-button:hover .middle {
+	opacity: 0;
+}
+.toggle-button:hover .bottom {
+	transform: translateY(-6px) translateX(0) rotate(-45deg);
+}
+
+.bar {
+    background-color: #000;
+    display: block;
+    width: 80%;
+    height: 2px;
+    border: 0;
+    -webkit-transition: all .30s ease;
+    transition: all .30s ease;
+	margin-top: 4px;
+}
+.middle {
+    top: 11px;
+}
+.bottom {
+    top: 22px;
+}
+
+.toggle-button:hover {
+    opacity: .7;	
+}
+.toggle-button.toggle-active {
+	top: 10px;
+}
+.toggle-active .bar {
+    background-color: #ffffff;
+}
+/* overlay ====================
+==============================*/
+
+
+.overlay {
+	z-index: 2;
+    position: fixed;
+    /*background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);*/
+	background-color: #fff ;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;/*an di tren man hinh chinh khi nao bam nut thi hien*/
+  	opacity: 0.2;/*background-color:mo di*/
+  
+	
+}
+.nav-active {
+    opacity: 0.5;
+    visibility: visible;
+    height: 100%;
+/*    max-height: 340px;*/
+}
+	
+.overlay ul {
+    display: block;
+	width: 50%;
+	margin: 50px 100px;
+}
+.overlay ul  li.overlay_menu a {
+	font-size: 15px;
+    line-height: 50px;
+    color: #000;
+	display:block;
+	padding-bottom:10px;
+	text-align: left;
+	border-radius:2%;
+	margin-bottom: 10px;
+	opacity: 1;    
+}
+/*=======================================bargermenu=========================*/
+header{
+	width: 100%;
+	position: relative;
+}
+#tmp_logo {
+	width:100%;
+}
+h1 img{
+	position: relative;
+	display: block;
+	margin: 0 auto;
+
+}
+#tmp_online_shop{
+	width: 134px;
+    top: 49px;
+    right: 60px;
+	text-align: right;
+	position: fixed;
+	display: block;
+	border-bottom: 2px solid #000;
+	background: url("../images/online.png") no-repeat no-repeat left center;
+    background-size: 14px auto;
+	z-index: 999;
+}
+/*===================================================menu====================================================================*/
+nav{
+	width: 100%;
+}
+nav ul{
+	padding: 0 15%;
+	display: flex;
+	margin: 0 auto;
+}
+nav ul li{
+	padding-right: 6%;
+}
+nav ul li:nth-child(8){
+	padding-right: 1.5%;
+}
+nav ul li:last-child{
+	padding-right: 0;
+}
+nav ul li a{
+	display: block;
+	color: #000;
+	font-size: 15px;
+    letter-spacing: 0.08em;
+	height:50px;
+}
+nav ul li:nth-child(4) a{
+	color: #6A6868;
+}
+nav ul li a{
+	display: block;
+	color: #000;
+	font-size: 15px;
+    letter-spacing: 0.08em;
+	position: relative;
+}
+nav ul li a::before{
+	position: absolute;
+	content: "";
+	bottom: 0;
+	left: 0;
+	width: 0;
+	height: 2px;
+	background-color: #000;
+}
+nav ul li a:hover::before{
+	width: 100%;
+	transition: width 0.3s linear;
+}
+.fixed_cnt {
+	position: fixed;
+	transform: rotate(90deg);
+}
+.weather {
+	top:300px;
+	left: -40px;
+}
+.fixed_cnt span{
+	border-bottom: 2px solid #000;
+	margin-top: 12px;
+	display: inline-block;
+}
+.fixed_cnt span:last-child{
+	border-bottom: none;
+}
+.fixed_cnt p{
+	font-size: 12px;
+	background: url(../images/weather--5.png)no-repeat top right;
+	background-size: 23px;
+	padding-right:35px;
+	height: 35px;
+	display: inline-block;	
+}
+.copyright{
+	top:300px;
+	right: -70px;
+}
+.copyright p{
+	background:none;
+}
+/*===================================================mainvisual====================================================================*/
+.wrap_mainviasual{
+	width: 100%;
+	margin-bottom: 50px;
+}
+/*===================================================phanchung_chua_content_toanbai====================================================================*/
+.wrap_main_cnt{
+	width: 100%;
+	padding: 0 65px;
+}
+#tmp_project {
+	width: 100%;
+	margin-bottom: 50px;
+}
+#tmp_project p{
+	background: url(../images/../images/project_img.jpg)no-repeat;
+	background-size: 100%;
+	height: 202px;
+
+}
+.product{/*===================================================product====================================================================*/
+	width: 100%;
+	margin-bottom: 50px;
+}
+.product ul{
+	display: flex;
+	flex-wrap: wrap;
+}
+.product ul li{
+	width: 33.3333%;
+	border: 1px solid white;
+	overflow: hidden;
+}
+.product_img{
+	width: 100%;
+	height: 365px;
+	overflow: hidden;
+}
+.product_img:hover img{
+	transform: scale(1.1);
+	opacity: 0.7;
+	transition-duration: .5s;
+    transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+}
+.product_info {
+    padding: 20px;
+    background-color: black;
+    color: #FFF;
+}
+.name_price {
+	padding-bottom: 5px;
+	
+}
+.name_price a {
+	color: #FFF;
+	
+}
+.name_price p:first-child{
+	
+	float: left;
+}
+.name_price p:last-child{
+	float: right;
+	font-family: "a-otf-midashi-go-mb31-pr6n",sans-serif;
+    font-style: normal;
+    font-weight: normal;
+	font-size: 14px;
+}
+.product_info span{
+	font-size: 11px;
+	font-family: "a-otf-midashi-go-mb31-pr6n",sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+#tmp_item{ /*===================================================item====================================================================*/
+	width: 100%;
+	margin-bottom: 50px;
+}
+.wrap_item{
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+.item_infor{
+	width: 50%;
+	padding: 0 75px;
+}
+.item_name{
+	margin-bottom:100px;
+}
+.item_img{
+	width: 50%;
+}
+.item_story p{
+	margin-bottom:100px;
+	font-family: "a-otf-midashi-go-mb31-pr6n",sans-serif;
+    font-style: normal;
+    font-weight: bold;
+	font-size: 14px;
+}
+.item_story.bottom{
+	margin-bottom:210px;
+
+}
+.item_btn {
+	width: 30%;
+}
+.item_btn a{
+	padding: 15px 0;
+    font-size: 13px;
+    border: #000 1px solid;
+    text-align: center;
+}
+.item_btn a:hover{
+	color: #FFF;
+	background-color: #000;
+	transition-duration: 0.5s;
+    transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+}
+.wrap_item.top{
+	margin-bottom: 50px;
+}
+/*==============================================================ketthuc content=========================================================*/
+
+/*==============================================================clulb_slide=========================================================*/
+.club_teta{
+	width: 100%;
+}
+
+.club_teta h2,
+.club_teta p
+{
+	text-align: center;
+	width: 100%;
+}
+.club_teta ul{
+	display: flex;
+}
+.club_slides{
+ 	width: 100%;
+	height: 262px;
+	display: flex;
+	position: relative;
+	animation: slider 23s linear infinite; /* 23sの部分背景画像の約数だとスムーズ */
+	background: url(../images/clud_slide.png) repeat-x 0 0;
+	margin-bottom: 50px;
+}
+@keyframes slider {
+	from { background-position: 0 0; }
+    to { background-position: -1326px 0; } /* 1518pxとは使用した背景画像の長さ */
+}
+.club_txt {
+    text-align: center;
+}
+.club_txt span{
+	font-size: 20px;
+    line-height: 2;
+    border-bottom: 2px solid #000;
+    display:inline-block;
+}
+/*==============================================================info=========================================================*/
+.wrap_infomation{
+	width: 100%;
+	padding: 0 65px;
+	font-weight: normal;
+}
+.wrap_infomation h2{
+	text-align: center;
+	font-size: 40px;
+}
+.infomation {
+	width: 100%;
+	display: flex;
+}
+.info{
+	width: 50%;
+}
+.info ul{
+	margin-bottom: 30px;
+}
+.info dl{
+	width: 100%;
+	display: flex;
+	margin-bottom: 8px;
+	padding-right: 50px;
+}
+ .info dt{
+	 width: 20%;
+	 padding-right: 5%;
+	 
+	
+}
+ .info dd{
+	width: 70%;
+	text-align: left;
+}
+.info.right p:nth-last-of-type(1){
+	font-size: 10px;
+    color: #777;
+	margin-bottom: 10px;
+	
+}
+.club_btn {
+	width: 25%;
+}
+.club_btn a{
+	font-weight: bold;
+	padding: 15px ;
+	display: block;
+	border: 1px solid #000;
+	text-align: center;
+}
+.club_btn a:hover{
+	color: #FFF;
+	background-color: #000;
+	transition-duration: 0.5s;
+    transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+}
