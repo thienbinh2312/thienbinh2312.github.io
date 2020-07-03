@@ -21,8 +21,8 @@ $(function(){
 				autoplaySpeed:4000,
 				dots:false,
 				infinite: true,
-				prevArrow: "<a href='javascript:void(0);' class='slick-prev slick-arrow'><img src='project_hoian/images/icon_preview.png' alt='' width='18' height='32' /></a>",
-				nextArrow: "<a href='javascript:void(0);' class='slick-next slick-arrow'><img src='project_hoian/images/icon_next.png' alt='' width='18' height='32' /></a>",
+				prevArrow: "<a href='javascript:void(0);' class='slick-prev slick-arrow'><img src='images/icon_preview.png' alt='' width='18' height='32' /></a>",
+				nextArrow: "<a href='javascript:void(0);' class='slick-next slick-arrow'><img src='images/icon_next.png' alt='' width='18' height='32' /></a>",
 				customPaging: function (slider, i) {
 					return ('<a href="javascript:void(0)"><span>' + (i + 1) + '</span></a>');
 				}
@@ -70,13 +70,35 @@ $(function(){
 	
 	$(window).on('scroll',function(){
 		if($(this).scrollTop()>400){
-			$('.pagetop').parent().addClass('show');
+			$('.pagetop').parent().addClass('hienra');
 		}else{
-			$('.pagetop').parent().removeClass('show');
+			$('.pagetop').parent().removeClass('hienra');
 		}	
 		
 	});
 	
 });
 })(jQuery);
+
+//parallax
+
+(function($){
+		"use strict";
+	$(function(){
+	if($(window).width()>=480)
+	$(window).scroll(function(){
+				var windowHeight = $(window).height();
+				var topWindow = $(window).scrollTop();
+				var blockAni = $('.parallax');
+				blockAni.each(function(){
+					var targetPosition = $(this).offset().top;
+					if(topWindow + windowHeight > targetPosition + 100){
+						$(this).addClass("css_show");
+					}
+
+				});
+	});		
+});
+})(jQuery);
+
  

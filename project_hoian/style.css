@@ -14,6 +14,9 @@ h3{
 	margin:0;
 	padding:0;	
 }
+h2{
+	font-size:30pt;
+}
 ul{
 	list-style: none;
 }
@@ -33,6 +36,7 @@ body{
     font-size: 15px;
     font-family: 'Lora', serif;
 }
+
 .container {
 	width: 1024px;
 	margin: 0 auto;
@@ -93,7 +97,7 @@ header #tmp_wrap_header .menu ul li a:hover::before{
 .mainvisual{
 	position: relative;
 	height: 900px;
-	background: url(/project_hoian/images/chuacau.jpg)no-repeat center center;
+	background: url(images/chuacau.jpg)no-repeat center center;
 	background-size: 100% auto;
 }
 /*=====================animation_load
@@ -198,7 +202,7 @@ header  .menu ul li a{
     position: absolute;
     top: -3px;
     right: 20px;
-	font-size: 3pt;
+	font-size: 9pt;
 	color: darkgoldenrod;
 	text-transform: uppercase;
 }
@@ -261,7 +265,8 @@ header  .menu ul li a{
 	display: flex;
 }
 #tmp_contain .wrap_box.swift {
-	flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    margin-bottom: 30px;
 }
 #tmp_contain .wrap_box .box_txt {
 	width: 50%;
@@ -277,21 +282,22 @@ header  .menu ul li a{
     height: 2px;
     background-color: rgba(50,50,50,1.00);
 }
-#tmp_contain .wrap_box .box_txt::after{
-	content: "";
+#tmp_contain .wrap_box .box_txt::after {
+    content: "";
     position: absolute;
     top: -80px;
     left: 10px;
-	width: 2px;
-	height:90px;
-	background-color: rgba(50,50,50,1.00);
+    width: 2px;
+    height: 90px;
+    background-color: rgba(50,50,50,1.00);
 }
 /*------------ midashi cang qua ben phai-------------------------*/
 #tmp_contain .wrap_box .box_txt.swift::before {
     content: "";
     position: absolute;
     top: -30px;
-    left: 85%;
+    left: auto;
+    right: -50px;
     width: 200px;
     height: 2px;
     background-color: rgba(50,50,50,1.00);
@@ -300,24 +306,21 @@ header  .menu ul li a{
     content: "";
     position: absolute;
     top: -80px;
-    left: 98%;
+    left: auto;
+    right: 10px;
     width: 2px;
     height: 90px;
     background-color: rgba(50,50,50,1.00);
 }
-#tmp_contain .wrap_box .box_txt h2{
-	font-family: "Lucida Sans Unicode", "Lucida Grande", "sans-serif";
-	font-size:30pt;
-	z-index: 5;
-	margin: 0;
-	padding: 10px 30px;
-	left: 80px;
-	position: relative;
+#tmp_contain .wrap_box .box_txt h2 {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", "sans-serif";
+    z-index: 5;
+    text-align: center;
 }
 #tmp_contain .wrap_box .box_img {
-	width: 50%;
-	position: relative;
-	z-index: 4;
+    width: 50%;
+    position: relative;
+    z-index: 4;
 }
 .wrap_box .box_img_around ul {
     display: flex;
@@ -376,13 +379,12 @@ header  .menu ul li a{
 	grid-template-columns: 25% 25% 25% 25%;
 	grid-template-rows: 200px 200px 200px;
 	column-gap: 10px;
-	row-gap: 10px;
+	grid-row-gap: 10px;
 }
 #tmp_item_3 .grid_container div{
 	background-color: aqua;
 	overflow: hidden;
 }
-
 .grid_container .item_01{
 	position: relative;
 	grid-column: 1;
@@ -503,7 +505,7 @@ header  .menu ul li a{
 
 #tmp_footer{
 	width: 100%;
-	perspective: 1500px;
+
 	cursor: pointer;
 }
 #tmp_footer .footer_name {
@@ -602,12 +604,12 @@ header  .menu ul li a{
 	opacity: 0;
 	transition: all 0.4s linear;
 }
-#tmp_footer .pnavi.show{
+#tmp_footer .pnavi.hienra{
 	opacity: 1;
 	transition: all 0.4s linear;
 }
 #tmp_footer .pnavi a.pagetop{
-	background: url(/project_hoian/images/icon_page_top.png)no-repeat;
+	background: url(images/icon_page_top.png)no-repeat;
 	background-size: 100% auto;
 	width: 23px;
 	height: 28px;
@@ -622,3 +624,52 @@ header  .menu ul li a{
     transform: rotateY(360deg);
   }
 }
+
+/*----------------------showtime------------------------*/
+.parallax {
+	transition: all 1s linear;
+}
+
+.about_box_img img {
+	opacity: 0;
+}
+
+h2{
+	transform: translateX(40px);
+	opacity: 0;
+}
+span{
+	transform: translateX(40px);
+	opacity: 0;
+	font-size: 13pt;
+    line-height: 40px;
+}
+
+.css_show h2 {
+	transform: translateX(0);
+	opacity: 1;
+	transition: all 1s linear;
+	transition-delay: 0.4s;
+}
+.css_show span {
+	transform: translateX(0);
+	opacity: 1;
+	transition: all 2s linear;
+	transition-delay: 1.5s;
+}
+.css_show.about_box_img img {
+	opacity: 1;
+	transition: all 1s linear;
+	transition-delay: 0.8s;
+}
+.css_show.about_box_img:nth-of-type(2) img {
+	transition: all 2s linear;
+	transition-delay: 1.3s;
+}
+.css_show.about_box_img:nth-of-type(3) img {
+	transition: all 3s linear;
+	transition-delay: 2s;
+}
+
+
+
