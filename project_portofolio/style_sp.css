@@ -113,7 +113,7 @@ footer .contact ul li {
 /* ========= about ======== */
 .mainvisual_about {
 	display: block;
-    background: url(/project_portofolio/img/horse.png)center center no-repeat;
+    background: url(../project_portofolio/img/horse.png)center center no-repeat;
     background-size: 100% auto;
     width: 100%;
     height: 0;
@@ -134,7 +134,7 @@ footer .contact ul li {
 /* ========= contact ======== */
 .mainvisual_contact {
 	display: block;
-    background: url(/project_portofolio/img/679.jpg)center center no-repeat;
+    background: url(../project_portofolio/img/679.jpg)center center no-repeat;
     background-size: 100% auto;
     width: 100%;
     height: 0;
@@ -143,7 +143,7 @@ footer .contact ul li {
 /* ========= Fortofolio web ======== */
 .product .product_mainvs_web {
 	display: block;
-    background: url(/project_portofolio/img/web-1045994_1920.jpg)center no-repeat;
+    background: url(../project_portofolio/img/web-1045994_1920.jpg)center no-repeat;
     background-size: 100% auto;
     width: 100%;
     height: 0;
@@ -162,7 +162,7 @@ main .product_cnt .container .web_item {
 /* ========= Fortofolio dtp ======== */
 .product .product_mainvs_dtp {
 	display: block;
-    background: url(/project_portofolio/img/machine-585262_1920.jpg)center no-repeat;
+    background: url(../project_portofolio/img/machine-585262_1920.jpg)center no-repeat;
     background-size: 100% auto;
     width: 100%;
     height: 0;
