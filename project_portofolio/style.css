@@ -360,19 +360,19 @@ main #tmp_library .lib_content ul li a:hover ::before{
 
 
 main #tmp_library .lib_content ul li.web a{
-	background:url(../project_portofolio/img/web-1045994_1920.jpg)center center no-repeat;
+	background:url(../project_portofolio/img/product_mainvs_web.jpg)center center no-repeat;
 	background-size:auto 100%;
 }
 main #tmp_library .lib_content ul li.dtp a{
-	background:url(../project_portofolio/img/machine-585262_1920.jpg)center center no-repeat;
+	background:url(../project_portofolio/img/product_mainvs_dtp.jpg)center center no-repeat;
 	background-size:auto 100%;
 }
 main #tmp_library .lib_content ul li.graphic a{
-	background:url(../project_portofolio/img/poly-3295856_1920.png)center center no-repeat;
+	background:url(../project_portofolio/img/product_mainvs_grahic.png)center center no-repeat;
 	background-size:auto 100%;
 }
 main #tmp_library .lib_content ul li.others a{
-	background:url(../project_portofolio/img/lightbulb.jpg)center center no-repeat;
+	background:url(../project_portofolio/img/product_mainvs_others.jpg)center center no-repeat;
 	background-size:auto 100%;
 }
 main #tmp_library .lib_title{
