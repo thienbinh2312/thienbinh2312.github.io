@@ -46,11 +46,8 @@ header .menu ul li:nth-child(4) {
 header .menu ul li a,
 .dropbtn {
     font-size: 87.5%;
-}
-header .menu ul li a {
     padding: 15px 0;
 }
-a {
 /* ========= index ======== */
 /* tmp_introduce */
 main #tmp_introduce {
@@ -172,4 +169,8 @@ main .product_cnt .container .web_item {
     padding-bottom:75%;
 }
 /* ========= Fortofolio grahic ======== */
+main.product_collection .product_cnt ul li {
+    width: 100%;
+    padding: 20px 30px;
+}
 }
