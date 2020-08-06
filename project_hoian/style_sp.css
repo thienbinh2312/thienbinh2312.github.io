@@ -6,8 +6,8 @@
 /* body
 ================================================== */
 body {
-    -webkit-text-size-adjust:none;
-    font-size: 87.5%;/*--------14px---------*/
+	-webkit-text-size-adjust:none;
+	font-size: 87.5%;/*--------14px---------*/
 }
 h2{
     font-size: 25px;
@@ -16,10 +16,10 @@ h2{
 /* wrapper
 ================================================== */
 #tmp_wrap_body {
-    width:100%;
-    min-width:320px;
-    margin:0 !important;
-    overflow: hidden;
+	width:100%;
+	min-width:320px;
+	margin:0 !important;
+	overflow: hidden;
 }
 #tmp_contain .wrap_box {
     margin-bottom: 45px;
@@ -37,12 +37,12 @@ h2{
     margin-bottom: 120px;
 }
 img {
-    max-width: 100%;
-    height: auto;
+	max-width: 100%;
+	height: auto;
 }
 span{
-    font-size: 10pt;
-    line-height: 15px;
+	font-size: 10pt;
+	line-height: 15px;
 }
 header #tmp_wrap_header {
     display: flex;
@@ -58,7 +58,7 @@ header #tmp_wrap_header .menu {
     height: auto;
 }
 header #tmp_wrap_header .menu ul {
-    width: 100%;
+	width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
@@ -69,9 +69,9 @@ header #tmp_wrap_header .menu ul li a {
     font-size: 100%;/*--------14/14*100%----------*/
 }
 .mainvisual {
-    padding-top: 112%;
-    height: 0;
-    display: block;
+	padding-top: 112%;
+	height: 0;
+	display: block;
 }
 .cate_ttl {
     padding: 0;
@@ -224,16 +224,16 @@ header #tmp_wrap_header .menu ul li a {
 }
 /*--------------------------------------------------hien ra sau khi vo hieu hoa parallax------------------------------------------------------------*/
 .about_box_img img{
-    opacity: 1;
+	opacity: 1;
 }
 
 h2{
-    transform: translateX(0);
-    opacity:1;
+	transform: translateX(0);
+	opacity:1;
 }
 span{
-    transform: translateX(0);
-    opacity: 1;
+	transform: translateX(0);
+	opacity: 1;
 }
 
 
