@@ -47,6 +47,8 @@ header .menu ul li a,
 .dropbtn {
     font-size: 87.5%;
     padding: 15px 0;
+    display: block;
+    text-align: center;
 }
 /* ========= index ======== */
 /* tmp_introduce */
