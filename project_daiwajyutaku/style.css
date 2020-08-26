@@ -109,10 +109,7 @@ body{
 	margin-top: -31px;
 }
 /*------------------------------------------------------hambarger---------------------------------------------------------*/
-.toggle-button {
-    position: fixed;
-	z-index: 3;
-}
+
 .header_mainvs .header .menu_box .menu_hambeger{
 	background-color: black;
 	width: 90px;
@@ -147,7 +144,7 @@ body{
 	content: "MENU";
     position: absolute;
     top: 50px;
-    left: 30px;
+    left: 20px;
 	font-size: 9px;
 }
 .toggle-button:hover {
