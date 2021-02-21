@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>無題ドキュメント</title>
+<style>
+/* default style */
+.selectnav { display: none; }
+/* small screen */
+@media screen and (max-width: 600px) {
+  .js #nav { display: none; }
+  .js .selectnav { display: block; }
+}
+</style>
+</head>
+</script>
+<script src="selectnav.min.js"></script>
+<script>
+selectnav('example-nav2', {
+  label: '### Table of content ### ',
+  nested: true,
+  indent: '-'
+});
+</script>
+<body>
+<ul id="example-nav2">
+ <li><a href="c-1.html">Chapter 1</a>
+ <ul>
+  <li><a href="c1-1.html">Chapter 1.1</a>
+  <ul>
+    <li><a href="c1-1-1.html">Chapter 1.1.1</a></li>
+    <li><a href="c1-1-2.html">Chapter 1.1.2</a></li>
+   </ul>
+  </li>
+  <li><a href="c1-2.html">Chapter 1.2</a></li>
+ </ul>
+ </li>
+</ul>
+</body>
+</html>
