@@ -18,25 +18,21 @@
 <script src="/project_demo/js/selectnav.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script>
-selectnav('example-nav2', {
-  label: '### Table of content ### ',
-  nested: true,
-  indent: '-'
+selectnav('example-nav1', {
+    activeclass: 'act',
+    nested: false,
+    label: false
 });
 </script>
 <body>
-<ul id="example-nav2">
- <li><a href="c-1.html">Chapter 1</a>
- <ul>
-  <li><a href="c1-1.html">Chapter 1.1</a>
-  <ul>
-    <li><a href="c1-1-1.html">Chapter 1.1.1</a></li>
-    <li><a href="c1-1-2.html">Chapter 1.1.2</a></li>
-   </ul>
+<ul id="example-nav1">
+  <li><a href="index.html">Welcome</a></li>
+  <li>
+    <a href="active.html" class="act">Active</a>
+    <ul><li><a href="hidden.html">Hidden</a></li></ul>
   </li>
-  <li><a href="c1-2.html">Chapter 1.2</a></li>
- </ul>
- </li>
+  <li><a href="http://google.com">External</a></li>
+  <li><a href="#top">Go to top</a></li>
 </ul>
 </body>
 </html>
