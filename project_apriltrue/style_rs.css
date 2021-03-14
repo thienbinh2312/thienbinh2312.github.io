@@ -310,7 +310,7 @@ line-height: 25px;
 .wrap_schedule_block span.schedule_info_img {
     width: 130px;
 	height: auto;
-    display: flex;
+    display: block;
     margin: 0 auto;
 }	
 .schedule_block2 span.moscot_label::before,
