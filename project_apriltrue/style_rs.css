@@ -305,6 +305,7 @@ line-height: 25px;
 }
 .wrap_schedule_block span.schedule_info_img {
     width: 130px;
+	height: auto;
     display: flex;
     margin: 0 auto;
 }	
