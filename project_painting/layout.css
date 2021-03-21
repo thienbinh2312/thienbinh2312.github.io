@@ -1,0 +1,229 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	box-sizing: border-box;
+	font-family: 'Hiragino Sans' , sans-serif;
+
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+blockquote,
+form,
+input,
+fieldset,
+legend {
+	margin:0;
+	padding:0;
+}
+li{
+	list-style: none;
+}
+img{
+	vertical-align: top;
+	max-width: 100%;
+	height: auto;
+}
+a{
+	text-decoration: none;
+	color: #0168CC;
+}
+span.sm_img{
+	display: none;
+	visibility: hidden;
+}
+.darkblue_small{
+	display: block;
+	font-family: 'Hiragino Sans' , sans-serif;
+	color: #006060;
+	font-size: 20px;
+	margin-bottom: 15px;
+	text-align: center;
+}
+a.darkblue_small{
+	text-decoration: underline;
+	
+}
+small.darkblue_smaller{
+	display: block;
+	font-family: 'Hiragino Sans' , sans-serif;
+	color: #006060;
+	font-size: 18px;
+	text-align: center;
+}
+#tmp_wrap{
+	width: 100%;
+	margin: 0 auto;
+}
+.container{
+	max-width: 760px;
+	margin: 80px auto 0;
+	padding: 20px;
+}
+.item_title h2{
+	font-family: 'Hiragino Sans' , sans-serif;
+	color: #451B00;
+	font-size: 22px;
+	font-weight: normal;
+}
+span.big_26{
+	font-size: 26px;
+	color: #F48F3F;
+}
+span.big_20{
+	font-family: 'Hiragino Sans' , sans-serif;
+	font-size: 20px;
+	color:#F48F3F;
+}
+span.big_37{
+	font-family: 'Hiragino Sans' , sans-serif;
+	font-size: 37px;
+	color:#F48F3F;
+	font-weight: 600;
+}
+span.gray_small, p{
+	font-family: 'Hiragino Sans' , sans-serif;
+	font-size: 16px;
+	color: #7B675A;
+	margin-bottom: 30px;
+}
+span.blue_small{
+	font-family: 'Hiragino Sans' , sans-serif;
+	color: #448ACA;
+	font-size: 16px;
+}
+span.red_small{
+	font-family: 'Hiragino Sans' , sans-serif;
+	color: #EC235A;
+	font-size: 16px;
+}
+.block{
+	display: block;
+}
+.margin_30{
+	margin-bottom: 30px;
+}
+.margin_12{
+	margin-bottom: 12px;
+}
+/*              introduce
+================================================== */
+#introduce .introduce_title {
+    margin-bottom: 55px;
+}
+#introduce .intro_cnt_txt {
+    margin-bottom: 70px;
+}
+.cnt_list ul {
+    margin: 70px 0 40px;
+}
+.anxiety_ques_txt .cnt_list ul {
+    margin: 40px 0 ;
+}
+.cnt_list ul li {
+    padding-bottom: 15px;
+}
+#introduce .introduce_cnt .cnt_list.intro ul li span {
+	color: #448ACA;
+}
+#introduce .introduce_cnt .intro_cnt_img {
+     margin-bottom: 40px;
+}
+#introduce .intro_cnt_txt span.big_20{
+	color: #A700A1;
+	display: block;
+}
+#introduce .intro_cnt_txt span.big_20,
+#introduce .intro_cnt_txt p
+{
+	margin: 12px 0;
+}
+/*              アンケート
+================================================== */
+.item_title h2 {
+    border-bottom: 5px dotted #C9C6B3;
+	padding-bottom: 5px;
+	margin-bottom: 20px;
+}
+#tmp_questionnaire .questionnaire_cnt .ques_txt {
+    margin-bottom: 20px;
+}
+#tmp_questionnaire .ques_img{
+	margin-bottom: 20px;
+}
+#tmp_questionnaire .ques_txt{
+	margin-bottom: 40px;
+}
+/*              アンケート
+================================================== */
+#tmp_anxiety_ques.item_title.anxiety_ques h2 {
+	margin-bottom: 40px;
+}
+#tmp_anxiety_ques .anxiety_ques_cnt {
+	margin-bottom: 50px;
+}
+#tmp_anxiety_ques .anxiety_ques_cnt .anxiety_ques_img{
+	margin-bottom: 20px;
+}
+#tmp_anxiety_ques .anxiety_ques_cnt .anxiety_ques_txt{
+	margin-bottom: 40px;
+}
+#tmp_painting .paint_cnt .paint_txt .violet,
+#tmp_anxiety_ques .anxiety_ques_cnt .anxiety_ques_txt .violet {
+	color: #A700A1;
+}
+/*
+=============intro===================================*/
+.anxiety ul li span{
+	font-size: 20px;
+	color: #35b6b7;
+}
+/*===================inquity=======================*/
+.inquiry_txt{
+	margin-bottom: 30px;
+}
+.inquiry_img{
+	margin-bottom: 20px;
+}
+/*===================consultation=======================*/
+.consultation_img{
+	margin-bottom: 12px;
+}
+.consultation_cnt{
+	margin-bottom: 60px;
+}
+/*              外壁塗装マッチ
+================================================== */
+#tmp_painting .paint_txt{
+	margin-bottom: 30px;
+}
+#tmp_painting .paint_img{
+	margin-bottom: 30px;
+}
+#tmp_match span.big_37{
+	display: block;
+	margin-bottom: 60px;
+}
+.match_img{
+	display: block;
+	margin-bottom: 60px;
+}
+/*              footer
+================================================== */
+#tmp_footer_cnt{
+	max-width: 768px;
+	height: auto;
+	background-color: #ACE4E5;
+	padding: 20px 0;
+}

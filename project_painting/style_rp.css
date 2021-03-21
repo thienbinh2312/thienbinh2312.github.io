@@ -1,0 +1,45 @@
+
+@charset "utf-8";
+/* CSS Document */
+@media screen and (max-width : 768px) {
+
+/* body
+================================================== */
+body {
+	-webkit-text-size-adjust:none;
+	font-size: 87.5%;/*--------14px---------*/
+}
+h2{
+    font-size: 135%;
+    font-weight: 900;
+    text-align: center;
+}
+p.small_text {
+    font-size: 20px;
+}
+span.sm_txt{
+	display: inherit;
+	visibility: visible;
+}
+/* wrapper
+================================================== */
+#tmp_wrap{
+	width:100%;
+	min-width:375px;
+	margin:0 !important;
+}
+span.sm_img{
+	display:inherit;
+	visibility: visible;
+}
+span.pc_img{
+	display: none;
+	visibility: hidden;
+}
+#tmp_footer_cnt {
+    width: 100%;
+    height: auto;
+    background-color: #ACE4E5;
+    padding: 20px;
+}
+}
